@@ -47,6 +47,9 @@
     "test": "vitest --reporter=verbose",
     "type-check": "tsc --noEmit"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0"
   },
