@@ -1,7 +1,7 @@
 {
   "name": "@hannoeru/react-kit",
   "version": "0.0.1",
-  "packageManager": "pnpm@6.32.8",
+  "packageManager": "pnpm@6.32.9",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/hannoeru/react-kit#readme",
