@@ -12,12 +12,13 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    name: Lint
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v2.2.1
 
       - name: Set node
         uses: actions/setup-node@v3
@@ -36,6 +37,7 @@ jobs:
 
   typecheck:
     runs-on: ubuntu-latest
+    name: Typecheck
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -60,13 +62,19 @@ jobs:
 
   test:
     runs-on: ${{ matrix.os }}
-
+    name: Test
     strategy:
       matrix:
-        node: [14.x, 16.x]
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [ubuntu-latest]
+        node: [14, 16, 18]
+        include:
+          - os: macos-latest
+            node_version: 16
+          - os: macos-latest
+            node_version: 18
+          - os: windows-latest
+            node_version: 16
       fail-fast: false
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
