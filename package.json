@@ -1,7 +1,7 @@
 {
   "name": "@hannoeru/react-kit",
   "version": "0.0.1",
-  "packageManager": "pnpm@6.32.9",
+  "packageManager": "pnpm@6.32.11",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/hannoeru/react-kit#readme",
@@ -59,7 +59,7 @@
     "use-sync-external-store": "^1.0.0"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.14.0",
+    "@antfu/ni": "^0.16.2",
     "@babel/types": "^7.17.10",
     "@hannoeru/eslint-config": "^0.7.7",
     "@testing-library/react-hooks": "^8.0.0",
@@ -70,13 +70,13 @@
     "bumpp": "^7.1.1",
     "eslint": "^8.13.0",
     "esno": "^0.14.1",
-    "pnpm": "^6.32.9",
+    "pnpm": "^6.32.11",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-test-renderer": "^18.1.0",
-    "typescript": "^4.6.3",
+    "typescript": "^4.6.4",
     "unbuild": "^0.7.4",
-    "vite": "^2.9.5",
-    "vitest": "^0.9.3"
+    "vite": "^2.9.6",
+    "vitest": "^0.10.0"
   }
 }
