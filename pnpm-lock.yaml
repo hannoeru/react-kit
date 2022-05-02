@@ -23,13 +23,13 @@ importers:
       react-test-renderer: ^18.1.0
       typescript: ^4.6.4
       unbuild: ^0.7.4
-      use-sync-external-store: ^1.0.0
+      use-sync-external-store: ^1.1.0
       vite: ^2.9.6
       vitest: ^0.10.0
     dependencies:
       deep-equal: 2.0.5
       immer: 9.0.12
-      use-sync-external-store: 1.0.0_react@18.1.0
+      use-sync-external-store: 1.1.0_react@18.1.0
     devDependencies:
       '@antfu/ni': 0.16.2
       '@babel/types': 7.17.10
@@ -3759,10 +3759,10 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /use-sync-external-store/1.0.0_react@18.1.0:
-    resolution: {integrity: sha512-AFVsxg5GkFg8GDcxnl+Z0lMAz9rE8DGJCc28qnBuQF7lac57B5smLcT37aXpXIIPz75rW4g3eXHPjhHwdGskOw==}
+  /use-sync-external-store/1.1.0_react@18.1.0:
+    resolution: {integrity: sha512-SEnieB2FPKEVne66NpXPd1Np4R1lTNKfjuy3XdIoPQKYBAFdzbzSZlSn1KJZUiihQLQC5Znot4SBz1EOTBwQAQ==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0-rc
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
       react: 18.1.0
     dev: false
