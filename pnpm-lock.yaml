@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@antfu/ni': ^0.14.0
-      '@babel/types': ^7.17.0
+      '@babel/types': ^7.17.10
       '@hannoeru/eslint-config': ^0.7.7
       '@testing-library/react-hooks': ^8.0.0
       '@types/deep-equal': ^1.0.1
@@ -32,7 +32,7 @@ importers:
       use-sync-external-store: 1.0.0_react@18.0.0
     devDependencies:
       '@antfu/ni': 0.14.0
-      '@babel/types': 7.17.0
+      '@babel/types': 7.17.10
       '@hannoeru/eslint-config': 0.7.7_eslint@8.13.0+typescript@4.6.3
       '@testing-library/react-hooks': 8.0.0_c98b910dfeebf654d6e2b3eef2d54432
       '@types/deep-equal': 1.0.1
@@ -353,6 +353,14 @@ packages:
 
   /@babel/types/7.17.0:
     resolution: {integrity: sha512-TmKSNO4D5rzhL5bjWFcVHHLETzfQ/AmbKpKPOSjlP0WoHZ6L911fgoOKY4Alp/emzG4cHJdyN49zpgkbXFEHHw==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-validator-identifier': 7.16.7
+      to-fast-properties: 2.0.0
+    dev: true
+
+  /@babel/types/7.17.10:
+    resolution: {integrity: sha512-9O26jG0mBYfGkUYCYZRnBwbVLd1UZOICEr2Em6InB6jVfsAv1GKgwXHmrSg+WFWDmeKTA6vyTZiN8tCSM5Oo3A==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-validator-identifier': 7.16.7
@@ -3699,7 +3707,7 @@ packages:
     dependencies:
       '@babel/core': 7.17.9
       '@babel/standalone': 7.17.9
-      '@babel/types': 7.17.0
+      '@babel/types': 7.17.10
       scule: 0.2.1
     transitivePeerDependencies:
       - supports-color
