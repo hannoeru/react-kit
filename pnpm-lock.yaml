@@ -10,7 +10,7 @@ importers:
       '@testing-library/react-hooks': ^8.0.0
       '@types/deep-equal': ^1.0.1
       '@types/node': ^17.0.25
-      '@types/react': ^18.0.5
+      '@types/react': ^18.0.8
       '@types/use-sync-external-store': ^0.0.3
       bumpp: ^7.1.1
       deep-equal: ^2.0.5
@@ -18,9 +18,9 @@ importers:
       esno: ^0.14.1
       immer: ^9.0.12
       pnpm: ^6.32.9
-      react: ^18.0.0
-      react-dom: ^18.0.0
-      react-test-renderer: ^18.0.0
+      react: ^18.1.0
+      react-dom: ^18.1.0
+      react-test-renderer: ^18.1.0
       typescript: ^4.6.3
       unbuild: ^0.7.4
       use-sync-external-store: ^1.0.0
@@ -29,23 +29,23 @@ importers:
     dependencies:
       deep-equal: 2.0.5
       immer: 9.0.12
-      use-sync-external-store: 1.0.0_react@18.0.0
+      use-sync-external-store: 1.0.0_react@18.1.0
     devDependencies:
       '@antfu/ni': 0.14.0
       '@babel/types': 7.17.10
       '@hannoeru/eslint-config': 0.7.7_eslint@8.13.0+typescript@4.6.3
-      '@testing-library/react-hooks': 8.0.0_c98b910dfeebf654d6e2b3eef2d54432
+      '@testing-library/react-hooks': 8.0.0_3da8f6ddbc2bc749a7502df273005b4e
       '@types/deep-equal': 1.0.1
       '@types/node': 17.0.25
-      '@types/react': 18.0.5
+      '@types/react': 18.0.8
       '@types/use-sync-external-store': 0.0.3
       bumpp: 7.1.1
       eslint: 8.13.0
       esno: 0.14.1
       pnpm: 6.32.9
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      react-test-renderer: 18.0.0_react@18.0.0
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
+      react-test-renderer: 18.1.0_react@18.1.0
       typescript: 4.6.3
       unbuild: 0.7.4
       vite: 2.9.5
@@ -579,7 +579,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@testing-library/react-hooks/8.0.0_c98b910dfeebf654d6e2b3eef2d54432:
+  /@testing-library/react-hooks/8.0.0_3da8f6ddbc2bc749a7502df273005b4e:
     resolution: {integrity: sha512-uZqcgtcUUtw7Z9N32W13qQhVAD+Xki2hxbTR461MKax8T6Jr8nsUvZB+vcBTkzY2nFvsUet434CsgF0ncW2yFw==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -596,11 +596,11 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.17.9
-      '@types/react': 18.0.5
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      react-error-boundary: 3.1.4_react@18.0.0
-      react-test-renderer: 18.0.0_react@18.0.0
+      '@types/react': 18.0.8
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
+      react-error-boundary: 3.1.4_react@18.1.0
+      react-test-renderer: 18.1.0_react@18.1.0
     dev: true
 
   /@types/chai-subset/1.3.3:
@@ -659,6 +659,14 @@ packages:
 
   /@types/react/18.0.5:
     resolution: {integrity: sha512-UPxNGInDCIKlfqBrm8LDXYWNfLHwIdisWcsH5GpMyGjhEDLFgTtlRBaoWuCua9HcyuE0rMkmAeZ3FXV1pYLIYQ==}
+    dependencies:
+      '@types/prop-types': 15.7.5
+      '@types/scheduler': 0.16.2
+      csstype: 3.0.11
+    dev: true
+
+  /@types/react/18.0.8:
+    resolution: {integrity: sha512-+j2hk9BzCOrrOSJASi5XiOyBbERk9jG5O73Ya4M0env5Ixi6vUNli4qy994AINcEF+1IEHISYFfIT4zwr++LKw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -3216,23 +3224,34 @@ packages:
       loose-envify: 1.4.0
       react: 18.0.0
       scheduler: 0.21.0
+    dev: false
 
-  /react-error-boundary/3.1.4_react@18.0.0:
+  /react-dom/18.1.0_react@18.1.0:
+    resolution: {integrity: sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==}
+    peerDependencies:
+      react: ^18.1.0
+    dependencies:
+      loose-envify: 1.4.0
+      react: 18.1.0
+      scheduler: 0.22.0
+    dev: true
+
+  /react-error-boundary/3.1.4_react@18.1.0:
     resolution: {integrity: sha512-uM9uPzZJTF6wRQORmSrvOIgt4lJ9MC1sNgEOj2XGsDTRE4kmpWxg7ENK9EWNKJRMAOY9z0MuF4yIfl6gp4sotA==}
     engines: {node: '>=10', npm: '>=6'}
     peerDependencies:
       react: '>=16.13.1'
     dependencies:
       '@babel/runtime': 7.17.9
-      react: 18.0.0
+      react: 18.1.0
     dev: true
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react-is/18.0.0:
-    resolution: {integrity: sha512-yUcBYdBBbo3QiPsgYDcfQcIkGZHfxOaoE6HLSnr1sPzMhdyxusbfKOSUbSd/ocGi32dxcj366PsTj+5oggeKKw==}
+  /react-is/18.1.0:
+    resolution: {integrity: sha512-Fl7FuabXsJnV5Q1qIOQwx/sagGF18kogb4gpfcG4gjLBWO0WDiiz1ko/ExayuxE7InyQkBLkxRFG5oxY6Uu3Kg==}
     dev: true
 
   /react-refresh/0.12.0:
@@ -3240,25 +3259,25 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-shallow-renderer/16.15.0_react@18.0.0:
+  /react-shallow-renderer/16.15.0_react@18.1.0:
     resolution: {integrity: sha512-oScf2FqQ9LFVQgA73vr86xl2NaOIX73rh+YFqcOp68CWj56tSfgtGKrEbyhCj0rSijyG9M1CYprTh39fBi5hzA==}
     peerDependencies:
       react: ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
       object-assign: 4.1.1
-      react: 18.0.0
-      react-is: 18.0.0
+      react: 18.1.0
+      react-is: 18.1.0
     dev: true
 
-  /react-test-renderer/18.0.0_react@18.0.0:
-    resolution: {integrity: sha512-SyZTP/FSkwfiKOZuTZiISzsrC8A80KNlQ8PyyoGoOq+VzMAab6Em1POK/CiX3+XyXG6oiJa1C53zYDbdrJu9fw==}
+  /react-test-renderer/18.1.0_react@18.1.0:
+    resolution: {integrity: sha512-OfuueprJFW7h69GN+kr4Ywin7stcuqaYAt1g7airM5cUgP0BoF5G5CXsPGmXeDeEkncb2fqYNECO4y18sSqphg==}
     peerDependencies:
-      react: ^18.0.0
+      react: ^18.1.0
     dependencies:
-      react: 18.0.0
-      react-is: 18.0.0
-      react-shallow-renderer: 16.15.0_react@18.0.0
-      scheduler: 0.21.0
+      react: 18.1.0
+      react-is: 18.1.0
+      react-shallow-renderer: 16.15.0_react@18.1.0
+      scheduler: 0.22.0
     dev: true
 
   /react/18.0.0:
@@ -3266,6 +3285,14 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
+    dev: false
+
+  /react/18.1.0:
+    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: true
 
   /read-pkg-up/7.0.1:
     resolution: {integrity: sha512-zK0TB7Xd6JpCLmlLmufqykGE+/TlOePD6qKClNW7hHDKFh/J7/7gCWGR7joEQEW1bKq3a3yUZSObOoWLFQ4ohg==}
@@ -3401,6 +3428,13 @@ packages:
     resolution: {integrity: sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==}
     dependencies:
       loose-envify: 1.4.0
+    dev: false
+
+  /scheduler/0.22.0:
+    resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: true
 
   /scule/0.2.1:
     resolution: {integrity: sha512-M9gnWtn3J0W+UhJOHmBxBTwv8mZCan5i1Himp60t6vvZcor0wr+IM0URKmIglsWJ7bRujNAVVN77fp+uZaWoKg==}
@@ -3719,12 +3753,12 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /use-sync-external-store/1.0.0_react@18.0.0:
+  /use-sync-external-store/1.0.0_react@18.1.0:
     resolution: {integrity: sha512-AFVsxg5GkFg8GDcxnl+Z0lMAz9rE8DGJCc28qnBuQF7lac57B5smLcT37aXpXIIPz75rW4g3eXHPjhHwdGskOw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0-rc
     dependencies:
-      react: 18.0.0
+      react: 18.1.0
     dev: false
 
   /v8-compile-cache/2.3.0:
