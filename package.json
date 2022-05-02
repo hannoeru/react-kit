@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "@antfu/ni": "^0.14.0",
-    "@babel/types": "^7.17.0",
+    "@babel/types": "^7.17.10",
     "@hannoeru/eslint-config": "^0.7.7",
     "@testing-library/react-hooks": "^8.0.0",
     "@types/deep-equal": "^1.0.1",
