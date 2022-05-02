@@ -1,7 +1,7 @@
 {
   "name": "@hannoeru/react-kit",
   "version": "0.0.1",
-  "packageManager": "pnpm@6.32.11",
+  "packageManager": "pnpm@7.0.0",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/hannoeru/react-kit#readme",
@@ -70,7 +70,7 @@
     "bumpp": "^7.1.1",
     "eslint": "^8.14.0",
     "esno": "^0.14.1",
-    "pnpm": "^6.32.11",
+    "pnpm": "^7.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-test-renderer": "^18.1.0",
