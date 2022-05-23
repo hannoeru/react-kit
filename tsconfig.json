@@ -10,7 +10,8 @@
     "strictNullChecks": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "skipDefaultLibCheck": true
+    "skipDefaultLibCheck": true,
+    "types": ["vitest/globals"]
   },
   "include": ["src", "test"],
 }
