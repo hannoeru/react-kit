@@ -1,5 +1,4 @@
 import { renderHook } from '@testing-library/react-hooks'
-import { describe, expect, it, vi } from 'vitest'
 import { useMount, useUnmount } from '../src'
 
 describe('useUnmount', () => {
