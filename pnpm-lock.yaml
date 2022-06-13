@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@antfu/ni': ^0.16.2
-      '@babel/types': ^7.17.10
+      '@babel/types': ^7.18.4
       '@hannoeru/eslint-config': ^0.8.10
       '@testing-library/react-hooks': ^8.0.0
       '@types/deep-equal': ^1.0.1
@@ -32,7 +32,7 @@ importers:
       use-sync-external-store: 1.1.0_react@18.1.0
     devDependencies:
       '@antfu/ni': 0.16.2
-      '@babel/types': 7.17.10
+      '@babel/types': 7.18.4
       '@hannoeru/eslint-config': 0.8.10_ud6rd4xtew5bv4yhvkvu24pzm4
       '@testing-library/react-hooks': 8.0.0_bre2j7tigejmwuaxxyrefvoucu
       '@types/deep-equal': 1.0.1
@@ -356,6 +356,14 @@ packages:
 
   /@babel/types/7.17.10:
     resolution: {integrity: sha512-9O26jG0mBYfGkUYCYZRnBwbVLd1UZOICEr2Em6InB6jVfsAv1GKgwXHmrSg+WFWDmeKTA6vyTZiN8tCSM5Oo3A==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-validator-identifier': 7.16.7
+      to-fast-properties: 2.0.0
+    dev: true
+
+  /@babel/types/7.18.4:
+    resolution: {integrity: sha512-ThN1mBcMq5pG/Vm2IcBmPPfyPXbd8S02rS+OBIDENdufvqC7Z/jHPCv9IcP01277aKtDI8g/2XysBN4hA8niiw==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-validator-identifier': 7.16.7
@@ -3663,7 +3671,7 @@ packages:
     dev: true
 
   /to-fast-properties/2.0.0:
-    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=}
+    resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
     engines: {node: '>=4'}
     dev: true
 
@@ -3811,7 +3819,7 @@ packages:
     dependencies:
       '@babel/core': 7.17.10
       '@babel/standalone': 7.17.11
-      '@babel/types': 7.17.10
+      '@babel/types': 7.18.4
       scule: 0.2.1
     transitivePeerDependencies:
       - supports-color
