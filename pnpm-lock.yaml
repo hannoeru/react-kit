@@ -10,7 +10,7 @@ importers:
       '@testing-library/react-hooks': ^8.0.1
       '@types/deep-equal': ^1.0.1
       '@types/node': ^17.0.31
-      '@types/react': ^18.0.19
+      '@types/react': ^18.0.20
       '@types/use-sync-external-store': ^0.0.3
       bumpp: ^8.2.1
       deep-equal: ^2.0.5
@@ -34,10 +34,10 @@ importers:
       '@antfu/ni': 0.18.0
       '@babel/types': 7.18.13
       '@hannoeru/eslint-config': 0.8.10_76twfck5d7crjqrmw4yltga7zm
-      '@testing-library/react-hooks': 8.0.1_5jdxxt4n5cjk32f54dkwrca2aa
+      '@testing-library/react-hooks': 8.0.1_pimovsjg5ibagkm3zmb5gxxeui
       '@types/deep-equal': 1.0.1
       '@types/node': 17.0.31
-      '@types/react': 18.0.19
+      '@types/react': 18.0.20
       '@types/use-sync-external-store': 0.0.3
       bumpp: 8.2.1
       eslint: 8.22.0
@@ -765,7 +765,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@testing-library/react-hooks/8.0.1_5jdxxt4n5cjk32f54dkwrca2aa:
+  /@testing-library/react-hooks/8.0.1_pimovsjg5ibagkm3zmb5gxxeui:
     resolution: {integrity: sha512-Aqhl2IVmLt8IovEVarNDFuJDVWVvhnr9/GCU6UUnrYXwgDFF9h2L2o2P9KBni1AST5sT6riAyoukFLyjQUgD/g==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -782,7 +782,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.17.9
-      '@types/react': 18.0.19
+      '@types/react': 18.0.20
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-error-boundary: 3.1.4_react@18.2.0
@@ -843,8 +843,8 @@ packages:
       '@types/react': 18.0.8
     dev: true
 
-  /@types/react/18.0.19:
-    resolution: {integrity: sha512-BDc3Q+4Q3zsn7k9xZrKfjWyJsSlEDMs38gD1qp2eDazLCdcPqAT+vq1ND+Z8AGel/UiwzNUk8ptpywgNQcJ1MQ==}
+  /@types/react/18.0.20:
+    resolution: {integrity: sha512-MWul1teSPxujEHVwZl4a5HxQ9vVNsjTchVA+xRqv/VYGCuKGAU6UhfrTdF5aBefwD1BHUD8i/zq+O/vyCm/FrA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
