@@ -17,14 +17,14 @@ importers:
       eslint: ^8.22.0
       esno: ^0.16.3
       immer: ^9.0.15
-      pnpm: ^7.12.0
+      pnpm: ^7.12.2
       react: ^18.2.0
       react-dom: ^18.2.0
       react-test-renderer: ^18.2.0
       typescript: ^4.8.3
       unbuild: ^0.8.11
       use-sync-external-store: ^1.2.0
-      vite: ^3.1.2
+      vite: ^3.1.3
       vitest: ^0.23.4
     dependencies:
       deep-equal: 2.0.5
@@ -42,13 +42,13 @@ importers:
       bumpp: 8.2.1
       eslint: 8.22.0
       esno: 0.16.3
-      pnpm: 7.12.0
+      pnpm: 7.12.2
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-test-renderer: 18.2.0_react@18.2.0
       typescript: 4.8.3
       unbuild: 0.8.11
-      vite: 3.1.2
+      vite: 3.1.3
       vitest: 0.23.4
 
   examples/store:
@@ -3690,8 +3690,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.12.0:
-    resolution: {integrity: sha512-Zc38WaMNkomazbIFl5nq2TR1e97R4iG+G7f9QKUL+YHbHOnkOYV3UuR45xYPhhpn1ArLfTpxjxmRu1H3gn6SPw==}
+  /pnpm/7.12.2:
+    resolution: {integrity: sha512-8QvnKANKN+YZXDmVYGI7zRJysdKldZI+w3AYnxu9IwtnLv1x6WuzrJr0nxMcTeuUAT908RjDqK+/6KJB9wNqxA==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
@@ -4405,8 +4405,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/3.1.2:
-    resolution: {integrity: sha512-wTDKPkiVbeT+drTPdkuvjVIC/2vKKUc1w3qNOuwgpyvPCZF6fvdxB5v5WEcCsqaYea0zrwA4+XialJKCHM3oVQ==}
+  /vite/3.1.3:
+    resolution: {integrity: sha512-/3XWiktaopByM5bd8dqvHxRt5EEgRikevnnrpND0gRfNkrMrPaGGexhtLCzv15RcCMtV2CLw+BPas8YFeSG0KA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -4464,7 +4464,7 @@ packages:
       tinybench: 2.1.5
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.1.2
+      vite: 3.1.3
     transitivePeerDependencies:
       - less
       - sass
