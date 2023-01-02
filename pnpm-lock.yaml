@@ -9,7 +9,7 @@ importers:
       '@hannoeru/eslint-config': ^0.8.10
       '@testing-library/react-hooks': ^8.0.1
       '@types/deep-equal': ^1.0.1
-      '@types/node': ^18.11.17
+      '@types/node': ^18.11.18
       '@types/react': ^18.0.26
       '@types/use-sync-external-store': ^0.0.3
       bumpp: ^8.2.1
@@ -17,7 +17,7 @@ importers:
       eslint: ^8.28.0
       esno: ^0.16.3
       immer: ^9.0.16
-      pnpm: ^7.18.2
+      pnpm: ^7.21.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-test-renderer: ^18.2.0
@@ -36,19 +36,19 @@ importers:
       '@hannoeru/eslint-config': 0.8.10_wy4udjehnvkneqnogzx5kughki
       '@testing-library/react-hooks': 8.0.1_ukj6e7lljkv3jczigzxc3nf53a
       '@types/deep-equal': 1.0.1
-      '@types/node': 18.11.17
+      '@types/node': 18.11.18
       '@types/react': 18.0.26
       '@types/use-sync-external-store': 0.0.3
       bumpp: 8.2.1
       eslint: 8.28.0
       esno: 0.16.3
-      pnpm: 7.18.2
+      pnpm: 7.21.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-test-renderer: 18.2.0_react@18.2.0
       typescript: 4.9.4
       unbuild: 0.9.4
-      vite: 3.2.5_@types+node@18.11.17
+      vite: 3.2.5_@types+node@18.11.18
       vitest: 0.26.2
 
   examples/store:
@@ -842,8 +842,8 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node/18.11.17:
-    resolution: {integrity: sha512-HJSUJmni4BeDHhfzn6nF0sVmd1SMezP7/4F0Lq+aXzmp2xm9O7WXrUtHW/CHlYVtZUbByEvWidHqRtcJXGF2Ng==}
+  /@types/node/18.11.18:
+    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -3756,8 +3756,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.18.2:
-    resolution: {integrity: sha512-k3LCdsrTPqL4dVgCgjpdWHcwzhEA/YCu2ZFR/+EiFy91azuRQcWgQbYf5rPkYu5x1Dl8+2KtXKTlDcrSx5hnQw==}
+  /pnpm/7.21.0:
+    resolution: {integrity: sha512-zDsRciscnXmp8AVD0u9eSoJrGfXywepuwMmFstsd+Vfl/wDZUxgaSaZ/6Nkx3bBftC+oBpWFkAGBRyjy58jvZg==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
@@ -4443,7 +4443,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-node/0.26.2_@types+node@18.11.17:
+  /vite-node/0.26.2_@types+node@18.11.18:
     resolution: {integrity: sha512-4M/zlatItZAyvrQG+82zQBhgDjRZRhVJYFW4T9wcAKh7eMmSiPOVSeI5zsV9UzHXgCcIDKX0o0r3s4OxExTHqg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -4453,7 +4453,7 @@ packages:
       pathe: 0.2.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 3.2.5_@types+node@18.11.17
+      vite: 3.2.5_@types+node@18.11.18
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4488,7 +4488,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/3.2.5_@types+node@18.11.17:
+  /vite/3.2.5_@types+node@18.11.18:
     resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4513,7 +4513,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.11.17
+      '@types/node': 18.11.18
       esbuild: 0.15.11
       postcss: 8.4.18
       resolve: 1.22.1
@@ -4546,7 +4546,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.4
       '@types/chai-subset': 1.3.3
-      '@types/node': 18.11.17
+      '@types/node': 18.11.18
       acorn: 8.8.1
       acorn-walk: 8.2.0
       chai: 4.3.7
@@ -4557,8 +4557,8 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.2.5_@types+node@18.11.17
-      vite-node: 0.26.2_@types+node@18.11.17
+      vite: 3.2.5_@types+node@18.11.18
+      vite-node: 0.26.2_@types+node@18.11.18
     transitivePeerDependencies:
       - less
       - sass
