@@ -1,7 +1,7 @@
 {
   "name": "@hannoeru/react-kit",
   "version": "0.0.1",
-  "packageManager": "pnpm@7.21.0",
+  "packageManager": "pnpm@7.23.0",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/hannoeru/react-kit#readme",
@@ -52,8 +52,8 @@
     "react": "^17.0.0 || ^18.0.0"
   },
   "dependencies": {
-    "deep-equal": "^2.1.0",
-    "immer": "^9.0.16",
+    "deep-equal": "^2.2.0",
+    "immer": "^9.0.17",
     "use-sync-external-store": "^1.2.0"
   },
   "devDependencies": {
@@ -68,7 +68,7 @@
     "bumpp": "^8.2.1",
     "eslint": "^8.31.0",
     "esno": "^0.16.3",
-    "pnpm": "^7.21.0",
+    "pnpm": "^7.23.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-test-renderer": "^18.2.0",
