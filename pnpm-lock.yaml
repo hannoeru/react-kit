@@ -16,8 +16,8 @@ importers:
       deep-equal: ^2.2.0
       eslint: ^8.31.0
       esno: ^0.16.3
-      immer: ^9.0.18
-      pnpm: ^7.25.1
+      immer: ^9.0.19
+      pnpm: ^7.26.2
       react: ^18.2.0
       react-dom: ^18.2.0
       react-test-renderer: ^18.2.0
@@ -28,7 +28,7 @@ importers:
       vitest: ^0.26.3
     dependencies:
       deep-equal: 2.2.0
-      immer: 9.0.18
+      immer: 9.0.19
       use-sync-external-store: 1.2.0_react@18.2.0
     devDependencies:
       '@antfu/ni': 0.19.0
@@ -42,7 +42,7 @@ importers:
       bumpp: 8.2.1
       eslint: 8.31.0
       esno: 0.16.3
-      pnpm: 7.25.1
+      pnpm: 7.26.2
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-test-renderer: 18.2.0_react@18.2.0
@@ -3128,8 +3128,8 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
-  /immer/9.0.18:
-    resolution: {integrity: sha512-eAPNpsj7Ax1q6Y/3lm2PmlwRcFzpON7HSNQ3ru5WQH1/PSpnyed/HpNOELl2CxLKoj4r+bAHgdyKqW5gc2Se1A==}
+  /immer/9.0.19:
+    resolution: {integrity: sha512-eY+Y0qcsB4TZKwgQzLaE/lqYMlKhv5J9dyd2RhhtGhNo2njPXDqU9XPfcNfa3MIDsdtZt5KlkIsirlo4dHsWdQ==}
     dev: false
 
   /import-fresh/3.3.0:
@@ -3972,8 +3972,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.25.1:
-    resolution: {integrity: sha512-y/jlADVxyk+scBwI0ALRf8QoUMgrWyONnD1voZaPTBI+D+aIXXiFG9pMk3eLhvEfc0nK8KUnnbDDBTywd7WsMw==}
+  /pnpm/7.26.2:
+    resolution: {integrity: sha512-Ywwh8puMMJQDO0kX4gxW9yBdbYISt3B6IfekexzWIium5wmpopAHMUpLuxRac5U5AAIIvt4ZQntWy6VcXs0iEg==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
