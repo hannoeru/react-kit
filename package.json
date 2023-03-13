@@ -66,7 +66,7 @@
     "@types/react": "^18.0.28",
     "@types/use-sync-external-store": "^0.0.3",
     "bumpp": "^8.2.1",
-    "eslint": "^8.35.0",
+    "eslint": "^8.36.0",
     "esno": "^0.16.3",
     "pnpm": "^7.29.1",
     "react": "^18.2.0",
