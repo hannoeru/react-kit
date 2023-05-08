@@ -63,7 +63,7 @@
     "@testing-library/react-hooks": "^8.0.1",
     "@types/deep-equal": "^1.0.1",
     "@types/node": "^18.16.5",
-    "@types/react": "^18.0.38",
+    "@types/react": "^18.2.6",
     "@types/use-sync-external-store": "^0.0.3",
     "bumpp": "^8.2.1",
     "eslint": "^8.36.0",
