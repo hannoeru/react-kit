@@ -17,7 +17,7 @@ importers:
       eslint: ^8.40.0
       esno: ^0.16.3
       immer: ^9.0.21
-      pnpm: ^7.33.0
+      pnpm: ^7.33.1
       react: ^18.2.0
       react-dom: ^18.2.0
       react-test-renderer: ^18.2.0
@@ -42,7 +42,7 @@ importers:
       bumpp: 8.2.1
       eslint: 8.40.0
       esno: 0.16.3
-      pnpm: 7.33.0
+      pnpm: 7.33.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-test-renderer: 18.2.0_react@18.2.0
@@ -4014,8 +4014,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.33.0:
-    resolution: {integrity: sha512-Mx97pT+pbYWesDFARX3YbBADaXHQ8G5uZALx4WsbQVprGWFfTM+eSCygWUrhJ/KX6Qr51S7SwB6DTjFPx+8YHw==}
+  /pnpm/7.33.1:
+    resolution: {integrity: sha512-+eL8qbdPEQVBhh7MHurn8Mx7c71zdYNVV47IHecz/5+ONEe7AX3xuSqbbQPgmJnU3EBEnCAZHOGhRJi7CCV0qA==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
