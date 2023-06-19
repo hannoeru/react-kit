@@ -62,7 +62,7 @@
     "@hannoeru/eslint-config": "^0.9.5",
     "@testing-library/react-hooks": "^8.0.1",
     "@types/deep-equal": "^1.0.1",
-    "@types/node": "^18.16.17",
+    "@types/node": "^18.16.18",
     "@types/react": "^18.2.11",
     "@types/use-sync-external-store": "^0.0.3",
     "bumpp": "^8.2.1",
