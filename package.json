@@ -52,19 +52,19 @@
     "react": "^17.0.0 || ^18.0.0"
   },
   "dependencies": {
-    "deep-equal": "^2.2.2",
+    "deep-equal": "^2.2.3",
     "immer": "^9.0.21",
     "use-sync-external-store": "^1.2.0"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.21.8",
+    "@antfu/ni": "^0.21.9",
     "@babel/types": "^7.23.0",
     "@hannoeru/eslint-config": "^0.9.5",
     "@testing-library/react-hooks": "^8.0.1",
-    "@types/deep-equal": "^1.0.3",
-    "@types/node": "^18.18.8",
+    "@types/deep-equal": "^1.0.4",
+    "@types/node": "^18.18.9",
     "@types/react": "^18.2.35",
-    "@types/use-sync-external-store": "^0.0.5",
+    "@types/use-sync-external-store": "^0.0.6",
     "bumpp": "^8.2.1",
     "eslint": "^8.47.0",
     "esno": "^0.17.0",
