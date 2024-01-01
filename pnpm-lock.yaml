@@ -10,7 +10,7 @@ importers:
       '@testing-library/react-hooks': ^8.0.1
       '@types/deep-equal': ^1.0.4
       '@types/node': ^18.19.4
-      '@types/react': ^18.2.45
+      '@types/react': ^18.2.46
       '@types/use-sync-external-store': ^0.0.6
       bumpp: ^8.2.1
       deep-equal: ^2.2.3
@@ -34,10 +34,10 @@ importers:
       '@antfu/ni': 0.21.12
       '@babel/types': 7.23.6
       '@hannoeru/eslint-config': 0.9.5_qh7vt56hoyagbyabluyke7dxs4
-      '@testing-library/react-hooks': 8.0.1_aqe45dji6tsa6675rrppggjzmu
+      '@testing-library/react-hooks': 8.0.1_7psopagwcptheqrywziq5d6w6e
       '@types/deep-equal': 1.0.4
       '@types/node': 18.19.4
-      '@types/react': 18.2.45
+      '@types/react': 18.2.46
       '@types/use-sync-external-store': 0.0.6
       bumpp: 8.2.1
       eslint: 8.47.0
@@ -66,7 +66,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@types/react': 18.2.45
+      '@types/react': 18.2.46
       '@types/react-dom': 18.2.7
       '@vitejs/plugin-react': 1.3.2
       typescript: 4.9.5
@@ -1090,7 +1090,7 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@testing-library/react-hooks/8.0.1_aqe45dji6tsa6675rrppggjzmu:
+  /@testing-library/react-hooks/8.0.1_7psopagwcptheqrywziq5d6w6e:
     resolution: {integrity: sha512-Aqhl2IVmLt8IovEVarNDFuJDVWVvhnr9/GCU6UUnrYXwgDFF9h2L2o2P9KBni1AST5sT6riAyoukFLyjQUgD/g==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -1107,7 +1107,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.22.10
-      '@types/react': 18.2.45
+      '@types/react': 18.2.46
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-error-boundary: 3.1.4_react@18.2.0
@@ -1163,11 +1163,11 @@ packages:
   /@types/react-dom/18.2.7:
     resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
     dependencies:
-      '@types/react': 18.2.45
+      '@types/react': 18.2.46
     dev: true
 
-  /@types/react/18.2.45:
-    resolution: {integrity: sha512-TtAxCNrlrBp8GoeEp1npd5g+d/OejJHFxS3OWmrPBMFaVQMSN0OFySozJio5BHxTuTeug00AVXVAjfDSfk+lUg==}
+  /@types/react/18.2.46:
+    resolution: {integrity: sha512-nNCvVBcZlvX4NU1nRRNV/mFl1nNRuTuslAJglQsq+8ldXe5Xv0Wd2f7WTE3jOxhLH2BFfiZGC6GCp+kHQbgG+w==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
