@@ -62,7 +62,7 @@
     "@hannoeru/eslint-config": "^0.9.5",
     "@testing-library/react-hooks": "^8.0.1",
     "@types/deep-equal": "^1.0.4",
-    "@types/node": "^18.19.6",
+    "@types/node": "^18.19.8",
     "@types/react": "^18.2.47",
     "@types/use-sync-external-store": "^0.0.6",
     "bumpp": "^8.2.1",
@@ -74,7 +74,7 @@
     "react-test-renderer": "^18.2.0",
     "typescript": "^5.3.3",
     "unbuild": "^1.2.1",
-    "vite": "^3.2.7",
+    "vite": "^3.2.8",
     "vitest": "^0.34.6"
   }
 }
