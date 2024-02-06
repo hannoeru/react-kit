@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@antfu/ni': ^0.21.12
       '@babel/types': ^7.23.9
-      '@hannoeru/eslint-config': ^0.9.5
+      '@hannoeru/eslint-config': ^0.9.7
       '@testing-library/react-hooks': ^8.0.1
       '@types/deep-equal': ^1.0.4
       '@types/node': ^18.19.14
@@ -14,7 +14,7 @@ importers:
       '@types/use-sync-external-store': ^0.0.6
       bumpp: ^8.2.1
       deep-equal: ^2.2.3
-      eslint: ^8.47.0
+      eslint: ^8.56.0
       esno: ^0.17.0
       immer: ^9.0.21
       pnpm: ^7.33.6
