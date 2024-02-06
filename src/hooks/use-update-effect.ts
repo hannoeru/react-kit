@@ -5,8 +5,9 @@ export const useUpdateEffect: typeof useEffect = (effect, deps) => {
   const isMounted = useMountState()
 
   useEffect(() => {
-    if (!isMounted)
+    if (!isMounted) {
       return effect()
+    }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, deps)
 }
