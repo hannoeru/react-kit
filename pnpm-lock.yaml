@@ -29,7 +29,7 @@ importers:
         version: 0.9.7(eslint@8.56.0)(typescript@5.3.3)
       '@testing-library/react-hooks':
         specifier: ^8.0.1
-        version: 8.0.1(@types/react@18.2.55)(react-dom@18.2.0)(react-test-renderer@18.2.0)(react@18.2.0)
+        version: 8.0.1(@types/react@18.2.56)(react-dom@18.2.0)(react-test-renderer@18.2.0)(react@18.2.0)
       '@types/deep-equal':
         specifier: ^1.0.4
         version: 1.0.4
@@ -37,8 +37,8 @@ importers:
         specifier: ^20.11.19
         version: 20.11.19
       '@types/react':
-        specifier: ^18.2.55
-        version: 18.2.55
+        specifier: ^18.2.56
+        version: 18.2.56
       '@types/use-sync-external-store':
         specifier: ^0.0.6
         version: 0.0.6
@@ -90,7 +90,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: ^18.0.8
-        version: 18.2.55
+        version: 18.2.56
       '@types/react-dom':
         specifier: ^18.0.3
         version: 18.2.18
@@ -998,7 +998,7 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@testing-library/react-hooks@8.0.1(@types/react@18.2.55)(react-dom@18.2.0)(react-test-renderer@18.2.0)(react@18.2.0):
+  /@testing-library/react-hooks@8.0.1(@types/react@18.2.56)(react-dom@18.2.0)(react-test-renderer@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-Aqhl2IVmLt8IovEVarNDFuJDVWVvhnr9/GCU6UUnrYXwgDFF9h2L2o2P9KBni1AST5sT6riAyoukFLyjQUgD/g==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -1015,7 +1015,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.23.9
-      '@types/react': 18.2.55
+      '@types/react': 18.2.56
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-error-boundary: 3.1.4(react@18.2.0)
@@ -1066,11 +1066,11 @@ packages:
   /@types/react-dom@18.2.18:
     resolution: {integrity: sha512-TJxDm6OfAX2KJWJdMEVTwWke5Sc/E/RlnPGvGfS0W7+6ocy2xhDVQVh/KvC2Uf7kACs+gDytdusDSdWfWkaNzw==}
     dependencies:
-      '@types/react': 18.2.55
+      '@types/react': 18.2.56
     dev: true
 
-  /@types/react@18.2.55:
-    resolution: {integrity: sha512-Y2Tz5P4yz23brwm2d7jNon39qoAtMMmalOQv6+fEFt1mT+FcM3D841wDpoUvFXhaYenuROCy3FZYqdTjM7qVyA==}
+  /@types/react@18.2.56:
+    resolution: {integrity: sha512-NpwHDMkS/EFZF2dONFQHgkPRwhvgq/OAvIaGQzxGSBmaeR++kTg6njr15Vatz0/2VcCEwJQFi6Jf4Q0qBu0rLA==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
