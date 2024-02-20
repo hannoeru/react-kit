@@ -1,6 +1,6 @@
-import type { Draft } from 'immer'
 import { produce } from 'immer'
 import { useSyncExternalStoreWithSelector as useSyncExternalStore } from 'use-sync-external-store/shim/with-selector'
+import type { Draft } from 'immer'
 
 type Listener = Function
 type UpdaterFn<State> = (prevState: State) => State
