@@ -1,6 +1,6 @@
-import immer from 'immer'
-import { useSyncExternalStoreWithSelector as useSyncExternalStore } from 'use-sync-external-store/shim/with-selector'
 import type { Draft } from 'immer'
+import { produce } from 'immer'
+import { useSyncExternalStoreWithSelector as useSyncExternalStore } from 'use-sync-external-store/shim/with-selector'
 
 type Listener = Function
 type UpdaterFn<State> = (prevState: State) => State
@@ -40,7 +40,7 @@ export function createStore<State>(initialState: State) {
     },
     mutate(updater) {
       const currState = this.get()
-      const nextState = immer(currState, updater)
+      const nextState = produce(currState, updater)
       if (nextState !== currState) this.set(nextState as State)
     },
   }
