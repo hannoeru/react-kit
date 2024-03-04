@@ -44,13 +44,13 @@ importers:
         version: 0.0.6
       bumpp:
         specifier: ^9.3.0
-        version: 9.3.0
+        version: 9.3.1
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
       esno:
         specifier: ^4.0.0
-        version: 4.0.0
+        version: 4.7.0
       pnpm:
         specifier: ^8.15.4
         version: 8.15.4
@@ -1611,8 +1611,8 @@ packages:
       semver: 7.6.0
     dev: true
 
-  /bumpp@9.3.0:
-    resolution: {integrity: sha512-P46VikoEZadYCqx7mbClKlaJnOyvc+JfRJPRf1YwlOjwqeYmutgFe1w9hvfXe819VhpU0N0TNXtxyVAUlAgaNA==}
+  /bumpp@9.3.1:
+    resolution: {integrity: sha512-GQsf2Kwsvoxu8RL4euMvUwN3baZsIuigCPF+iGNQEa19+62MqYcpzxyjbspJT9qCipecpWKcEy6lC5kVoTs1Kw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -2934,8 +2934,8 @@ packages:
       - supports-color
     dev: true
 
-  /esno@4.0.0:
-    resolution: {integrity: sha512-tmaM9gfnSWqzePVJ5FJLYX9mMyE6ZevvOIvd1CMoMk2Fn1F3aKI/OQPjubS5wCIKlPpWfDfKFEtoslCNCiZJpQ==}
+  /esno@4.7.0:
+    resolution: {integrity: sha512-81owrjxIxOwqcABt20U09Wn8lpBo9K6ttqbGvQcB3VYNLJyaV1fvKkDtpZd3Rj5BX3WXiGiJCjUevKQGNICzJg==}
     hasBin: true
     dependencies:
       tsx: 4.7.1
