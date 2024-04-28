@@ -54,7 +54,7 @@
   "dependencies": {
     "deep-equal": "^2.2.3",
     "immer": "^10.0.4",
-    "use-sync-external-store": "^1.2.0"
+    "use-sync-external-store": "^1.2.2"
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.12",
