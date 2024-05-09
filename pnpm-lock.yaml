@@ -34,8 +34,8 @@ importers:
         specifier: ^1.0.4
         version: 1.0.4
       '@types/node':
-        specifier: ^20.12.8
-        version: 20.12.8
+        specifier: ^20.12.11
+        version: 20.12.11
       '@types/react':
         specifier: ^18.3.1
         version: 18.3.1
@@ -52,8 +52,8 @@ importers:
         specifier: ^4.7.0
         version: 4.7.0
       pnpm:
-        specifier: ^9.0.6
-        version: 9.0.6
+        specifier: ^9.1.0
+        version: 9.1.0
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -71,10 +71,10 @@ importers:
         version: 2.0.0(typescript@5.4.5)
       vite:
         specifier: ^5.2.11
-        version: 5.2.11(@types/node@20.12.8)
+        version: 5.2.11(@types/node@20.12.11)
       vitest:
         specifier: ^1.6.0
-        version: 1.6.0(@types/node@20.12.8)
+        version: 1.6.0(@types/node@20.12.11)
 
   examples/store:
     dependencies:
@@ -789,8 +789,8 @@ packages:
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
 
-  '@types/node@20.12.8':
-    resolution: {integrity: sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==}
+  '@types/node@20.12.11':
+    resolution: {integrity: sha512-vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2488,8 +2488,8 @@ packages:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
 
-  pnpm@9.0.6:
-    resolution: {integrity: sha512-9thjEwlzIHy3ozbWtDmiQqJqyAaAd99TDWqGBpQZhT3B/+ZAKexZSpxQWjpBDRlkPIcKumd2Mw9c/dzxCpwWFw==}
+  pnpm@9.1.0:
+    resolution: {integrity: sha512-Z/WHmRapKT5c8FnCOFPVcb6vT3U8cH9AyyK+1fsVeMaq07bEEHzLO6CzW+AD62IaFkcayDbIe+tT+dVLtGEnJA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -3846,7 +3846,7 @@ snapshots:
     dependencies:
       '@types/unist': 2.0.10
 
-  '@types/node@20.12.8':
+  '@types/node@20.12.11':
     dependencies:
       undici-types: 5.26.5
 
@@ -5897,7 +5897,7 @@ snapshots:
 
   pluralize@8.0.0: {}
 
-  pnpm@9.0.6: {}
+  pnpm@9.1.0: {}
 
   possible-typed-array-names@1.0.0: {}
 
@@ -6597,13 +6597,13 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-node@1.6.0(@types/node@20.12.8):
+  vite-node@1.6.0(@types/node@20.12.11):
     dependencies:
       cac: 6.7.14
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.2.11(@types/node@20.12.8)
+      vite: 5.2.11(@types/node@20.12.11)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -6623,16 +6623,16 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vite@5.2.11(@types/node@20.12.8):
+  vite@5.2.11(@types/node@20.12.11):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.17.2
     optionalDependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.11
       fsevents: 2.3.3
 
-  vitest@1.6.0(@types/node@20.12.8):
+  vitest@1.6.0(@types/node@20.12.11):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -6651,11 +6651,11 @@ snapshots:
       strip-literal: 2.1.0
       tinybench: 2.8.0
       tinypool: 0.8.4
-      vite: 5.2.11(@types/node@20.12.8)
-      vite-node: 1.6.0(@types/node@20.12.8)
+      vite: 5.2.11(@types/node@20.12.11)
+      vite-node: 1.6.0(@types/node@20.12.11)
       why-is-node-running: 2.2.2
     optionalDependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.11
     transitivePeerDependencies:
       - less
       - lightningcss
