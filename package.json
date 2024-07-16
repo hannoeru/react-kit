@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "@antfu/ni": "^0.22.0",
-    "@babel/types": "^7.24.8",
+    "@babel/types": "^7.24.9",
     "@hannoeru/eslint-config": "^0.9.7",
     "@testing-library/react-hooks": "^8.0.1",
     "@types/deep-equal": "^1.0.4",
