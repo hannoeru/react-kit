@@ -57,7 +57,7 @@
     "use-sync-external-store": "^1.2.2"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.22.0",
+    "@antfu/ni": "^0.22.1",
     "@babel/types": "^7.25.2",
     "@hannoeru/eslint-config": "^0.9.7",
     "@testing-library/react-hooks": "^8.0.1",
