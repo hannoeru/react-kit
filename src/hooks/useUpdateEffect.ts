@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { useMountState } from './use-mount-state'
+import { useMountState } from './useMountState'
 
 export const useUpdateEffect: typeof useEffect = (effect, deps) => {
   const isMounted = useMountState()

@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { useDeepCompareMemo } from './use-deep-compare-memo'
+import { useDeepCompareMemo } from './useDeepCompareMemo'
 
 type UseEffectParams = Parameters<typeof useEffect>
 type EffectCallback = UseEffectParams[0]
