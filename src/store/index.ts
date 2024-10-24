@@ -1,18 +1,19 @@
+import type { Draft } from 'immer'
 import { produce } from 'immer'
 import { useSyncExternalStoreWithSelector as useSyncExternalStore } from 'use-sync-external-store/shim/with-selector'
-import type { Draft } from 'immer'
 
+// eslint-disable-next-line ts/no-unsafe-function-type
 type Listener = Function
 type UpdaterFn<State> = (prevState: State) => State
 type Selector<State, Selection> = (state: State) => Selection
 
 export interface Store<State> {
-  get(): State
-  set(updater: State | UpdaterFn<State>): void
-  on(listener: Listener): void
-  off(listener: Listener): void
-  reset(): void
-  mutate(updater: (draft: Draft<State>) => void): void
+  get: () => State
+  set: (updater: State | UpdaterFn<State>) => void
+  on: (listener: Listener) => void
+  off: (listener: Listener) => void
+  reset: () => void
+  mutate: (updater: (draft: Draft<State>) => void) => void
 }
 
 export function createStore<State>(initialState: State) {
@@ -41,7 +42,8 @@ export function createStore<State>(initialState: State) {
     mutate(updater) {
       const currState = this.get()
       const nextState = produce(currState, updater)
-      if (nextState !== currState) this.set(nextState as State)
+      if (nextState !== currState)
+        this.set(nextState as State)
     },
   }
 

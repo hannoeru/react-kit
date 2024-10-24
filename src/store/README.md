@@ -7,11 +7,11 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [](#)
+- [Store](#store)
   - [Example](#example)
   - [API](#api)
     - [`createStore<State>(intialState: State): [Store<State>, useStore<Value>(selector: (state: State) => Value): Value]`](#createstorestateintialstate-state-storestate-usestorevalueselector-state-state--value-value)
-      - [`store`](#store)
+      - [`store`](#store-1)
       - [`useStore<Value>(selector: (state: State) => Value): Value`](#usestorevalueselector-state-state--value-value)
   - [Author](#author)
   - [Inspiration](#inspiration)
@@ -20,10 +20,10 @@
 
 ## Example
 
-```jsx
+```tsx
+import { createStore, useSelector } from '@hannoeru/react-kit'
 import React from 'react'
 import { render } from 'react-dom'
-import { createStore, useSelector } from '@hannoeru/react-kit'
 
 // Create a lil' store with some state
 const [store, useStore] = createStore({
@@ -31,7 +31,7 @@ const [store, useStore] = createStore({
 })
 
 // The app doesn't need a provider
-const App = () => {
+function App() {
   return (
     <div>
       <Label />
@@ -57,7 +57,7 @@ function decrement() {
 }
 
 // You don't need to pass the store down as a prop either
-const Buttons = () => {
+function Buttons() {
   return (
     <>
       <button onClick={decrement}>-</button>
@@ -69,9 +69,14 @@ const Buttons = () => {
 // Lastly, you can subscribe to "slices" of state by passing a selector to use
 // state. The component will only be re-rendered when that portion of state
 // re-renders.
-const Label = () => {
+function Label() {
   const count = useStore(state => state.count)
-  return <p>The count is {count}</p>
+  return (
+    <p>
+      The count is
+      {count}
+    </p>
+  )
 }
 
 render(<App />, document.getElementById('root'))
@@ -98,19 +103,29 @@ Create a Mutik `store` given some initial state. The `store` has the following A
 
 React hook to subscribe to Mutik state.
 
-```jsx
-const Label = () => {
+```tsx
+function Label() {
   const count = useStore(state => state.count)
-  return <p>The count is {count}</p>
+  return (
+    <p>
+      The count is
+      {count}
+    </p>
+  )
 }
 ```
 
 You can use props with Mutik selector.
 
-```jsx
-const User = ({ id }) => {
+```tsx
+function User({ id }) {
   const user = useStore(state => state.users[id])
-  return <p>The username is {user.name}</p>
+  return (
+    <p>
+      The username is
+      {user.name}
+    </p>
+  )
 }
 ```
 

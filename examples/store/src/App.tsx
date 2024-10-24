@@ -17,22 +17,27 @@ function decrement() {
   }))
 }
 
-const Buttons = () => {
+function Buttons() {
   return (
     <>
-      <button onClick={decrement}>-</button>
-      <button onClick={increment}>+</button>
-      <button onClick={() => store.reset()}>reset</button>
+      <button type="button" onClick={decrement}>-</button>
+      <button type="button" onClick={increment}>+</button>
+      <button type="button" onClick={() => store.reset()}>reset</button>
     </>
   )
 }
 
-const Label = () => {
+function Label() {
   const count = useStore(state => state.count)
-  return <p>The count is {count}</p>
+  return (
+    <p>
+      The count is
+      {count}
+    </p>
+  )
 }
 
-const App = () => {
+function App() {
   return (
     <div>
       <Label />

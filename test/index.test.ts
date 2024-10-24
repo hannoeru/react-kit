@@ -2,7 +2,7 @@ import { renderHook } from '@testing-library/react-hooks'
 import { useMount, useUnmount } from '../src'
 
 describe('useUnmount', () => {
-  it('only run once on unmounted', async() => {
+  it('only run once on unmounted', async () => {
     const fn = vi.fn()
     const hook = renderHook(() => useUnmount(fn))
     expect(fn).toHaveBeenCalledTimes(0)
@@ -14,7 +14,7 @@ describe('useUnmount', () => {
 })
 
 describe('useMount', () => {
-  it('only run once on mounted', async() => {
+  it('only run once on mounted', async () => {
     const fn = vi.fn()
     const hook = renderHook(() => useMount(fn))
     expect(fn).toHaveBeenCalledTimes(1)

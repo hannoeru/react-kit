@@ -1,7 +1,7 @@
-import { useEffect } from 'react'
 import type { EffectCallback } from 'react'
+import { useEffect } from 'react'
 
-export const useEffectOnce = (effect: EffectCallback): void => {
+export function useEffectOnce(effect: EffectCallback): void {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(effect, [])
 }

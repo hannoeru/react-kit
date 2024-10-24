@@ -6,10 +6,7 @@ type EffectCallback = UseEffectParams[0]
 type DependencyList = UseEffectParams[1]
 type UseEffectReturn = ReturnType<typeof useEffect>
 
-export const useDeepCompareEffect = (
-  callback: EffectCallback,
-  dependencies: DependencyList,
-): UseEffectReturn => {
+export function useDeepCompareEffect(callback: EffectCallback, dependencies: DependencyList): UseEffectReturn {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   return useEffect(callback, useDeepCompareMemo(dependencies))
 }

@@ -1,6 +1,6 @@
 import { useEffectOnce } from './use-effect-once'
 
-export const useMount = (fn: () => void) => {
+export function useMount(fn: () => void) {
   useEffectOnce(() => {
     fn()
   })

@@ -1,9 +1,0 @@
-{
-  "extends": "@hannoeru",
-  "overrides": [
-    {
-      "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
-      "extends": ["plugin:react-hooks/recommended"]
-    }
-  ]
-}
