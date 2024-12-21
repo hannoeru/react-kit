@@ -65,7 +65,7 @@
     "@testing-library/react": "^16.1.0",
     "@types/deep-equal": "^1.0.4",
     "@types/node": "^22.10.2",
-    "@types/react": "^18.3.17",
+    "@types/react": "^18.3.18",
     "@types/use-sync-external-store": "^0.0.6",
     "bumpp": "^9.9.1",
     "eslint": "^9.17.0",
