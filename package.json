@@ -68,7 +68,7 @@
     "@types/react": "^18.3.18",
     "@types/use-sync-external-store": "^0.0.6",
     "bumpp": "^10.0.1",
-    "eslint": "^9.18.0",
+    "eslint": "^9.19.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "happy-dom": "^16.7.2",
