@@ -20,7 +20,7 @@ importers:
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^4.3.0
-        version: 4.4.0(@eslint-react/eslint-plugin@1.30.0(eslint@9.21.0(jiti@2.4.2))(ts-api-utils@2.0.1(typescript@5.8.2))(typescript@5.8.2))(@typescript-eslint/utils@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-react-hooks@5.2.0(eslint@9.21.0(jiti@2.4.2)))(eslint-plugin-react-refresh@0.4.19(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.1.8)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0))
+        version: 4.4.0(@eslint-react/eslint-plugin@1.30.0(eslint@9.21.0(jiti@2.4.2))(ts-api-utils@2.0.1(typescript@5.8.2))(typescript@5.8.2))(@typescript-eslint/utils@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-react-hooks@5.2.0(eslint@9.21.0(jiti@2.4.2)))(eslint-plugin-react-refresh@0.4.19(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.2.2)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0))
       '@eslint-react/eslint-plugin':
         specifier: ^1.29.0
         version: 1.30.0(eslint@9.21.0(jiti@2.4.2))(ts-api-utils@2.0.1(typescript@5.8.2))(typescript@5.8.2)
@@ -52,8 +52,8 @@ importers:
         specifier: ^0.4.19
         version: 0.4.19(eslint@9.21.0(jiti@2.4.2))
       happy-dom:
-        specifier: ^17.1.8
-        version: 17.1.8
+        specifier: ^17.2.2
+        version: 17.2.2
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -71,7 +71,7 @@ importers:
         version: 6.2.0(@types/node@22.13.8)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0)
       vitest:
         specifier: ^3.0.7
-        version: 3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.1.8)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0)
+        version: 3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.2.2)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0)
 
   examples/store:
     dependencies:
@@ -1993,8 +1993,8 @@ packages:
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
 
-  happy-dom@17.1.8:
-    resolution: {integrity: sha512-Yxbq/FG79z1rhAf/iB6YM8wO2JB/JDQBy99RiLSs+2siEAi5J05x9eW1nnASHZJbpldjJE2KuFLsLZ+AzX/IxA==}
+  happy-dom@17.2.2:
+    resolution: {integrity: sha512-3I1/CrNi780sdOhuhUnFtgTWhloSc3quSZwsylI41jycx8o97M6Y4aQAu0phSexGusT7+59BxATh4L4xiY0HcA==}
     engines: {node: '>=18.0.0'}
 
   has-bigints@1.1.0:
@@ -3321,7 +3321,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@antfu/eslint-config@4.4.0(@eslint-react/eslint-plugin@1.30.0(eslint@9.21.0(jiti@2.4.2))(ts-api-utils@2.0.1(typescript@5.8.2))(typescript@5.8.2))(@typescript-eslint/utils@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-react-hooks@5.2.0(eslint@9.21.0(jiti@2.4.2)))(eslint-plugin-react-refresh@0.4.19(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.1.8)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0))':
+  '@antfu/eslint-config@4.4.0(@eslint-react/eslint-plugin@1.30.0(eslint@9.21.0(jiti@2.4.2))(ts-api-utils@2.0.1(typescript@5.8.2))(typescript@5.8.2))(@typescript-eslint/utils@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-react-hooks@5.2.0(eslint@9.21.0(jiti@2.4.2)))(eslint-plugin-react-refresh@0.4.19(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.2.2)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0))':
     dependencies:
       '@antfu/install-pkg': 1.0.0
       '@clack/prompts': 0.10.0
@@ -3330,7 +3330,7 @@ snapshots:
       '@stylistic/eslint-plugin': 4.2.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)
       '@typescript-eslint/eslint-plugin': 8.25.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)
       '@typescript-eslint/parser': 8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)
-      '@vitest/eslint-plugin': 1.1.36(@typescript-eslint/utils@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.1.8)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0))
+      '@vitest/eslint-plugin': 1.1.36(@typescript-eslint/utils@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.2.2)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0))
       ansis: 3.17.0
       cac: 6.7.14
       eslint: 9.21.0(jiti@2.4.2)
@@ -4234,13 +4234,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/eslint-plugin@1.1.36(@typescript-eslint/utils@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.1.8)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0))':
+  '@vitest/eslint-plugin@1.1.36(@typescript-eslint/utils@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.2.2)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0))':
     dependencies:
       '@typescript-eslint/utils': 8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)
       eslint: 9.21.0(jiti@2.4.2)
     optionalDependencies:
       typescript: 5.8.2
-      vitest: 3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.1.8)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0)
+      vitest: 3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.2.2)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0)
 
   '@vitest/expect@3.0.7':
     dependencies:
@@ -5371,7 +5371,7 @@ snapshots:
 
   graphemer@1.4.0: {}
 
-  happy-dom@17.1.8:
+  happy-dom@17.2.2:
     dependencies:
       webidl-conversions: 7.0.0
       whatwg-mimetype: 3.0.0
@@ -6730,7 +6730,7 @@ snapshots:
       tsx: 4.19.3
       yaml: 2.7.0
 
-  vitest@3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.1.8)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0):
+  vitest@3.0.7(@types/debug@4.1.12)(@types/node@22.13.8)(happy-dom@17.2.2)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0):
     dependencies:
       '@vitest/expect': 3.0.7
       '@vitest/mocker': 3.0.7(vite@6.2.0(@types/node@22.13.8)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.0))
@@ -6755,7 +6755,7 @@ snapshots:
     optionalDependencies:
       '@types/debug': 4.1.12
       '@types/node': 22.13.8
-      happy-dom: 17.1.8
+      happy-dom: 17.2.2
     transitivePeerDependencies:
       - jiti
       - less
