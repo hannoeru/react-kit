@@ -20,7 +20,7 @@ jobs:
       - name: Set node version to v16
         uses: actions/setup-node@v4
         with:
-          node-version: 16.20.2
+          node-version: 22.14.0
           cache: pnpm
 
       - run: npx conventional-github-releaser -p angular
